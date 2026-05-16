@@ -1,0 +1,119 @@
+[0.040s] Invoking command in '/home/lucca/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucca/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucca/ros2_ws/install/examples_rclcpp_wait_set
+[2.370s] -- The C compiler identification is GNU 11.4.0
+[2.370s] -- The CXX compiler identification is GNU 11.4.0
+[2.376s] -- Detecting C compiler ABI info
+[2.376s] -- Detecting C compiler ABI info - done
+[2.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.376s] -- Detecting C compile features
+[2.376s] -- Detecting C compile features - done
+[2.376s] -- Detecting CXX compiler ABI info
+[2.376s] -- Detecting CXX compiler ABI info - done
+[2.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.376s] -- Detecting CXX compile features
+[2.377s] -- Detecting CXX compile features - done
+[2.377s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.377s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.377s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.377s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.377s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.377s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.377s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.377s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[2.378s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.378s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.378s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.378s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.378s] -- Looking for pthread.h
+[2.378s] -- Looking for pthread.h - found
+[2.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.378s] -- Found Threads: TRUE  
+[2.378s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.379s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.569s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.575s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.577s] -- Configured cppcheck include dirs: /home/lucca/ros2_ws/src/examples/rclcpp/wait_set/include
+[2.577s] -- Configured cppcheck exclude dirs and/or files: 
+[2.580s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.580s] -- Configured cpplint exclude dirs and/or files: 
+[2.582s] -- Added test 'lint_cmake' to check CMake code style
+[2.599s] -- Added test 'uncrustify' to check C / C++ code style
+[2.599s] -- Configured uncrustify additional arguments: 
+[2.599s] -- Added test 'xmllint' to check XML markup files
+[2.599s] -- Configuring done
+[2.778s] -- Generating done
+[2.828s] -- Build files have been written to: /home/lucca/ros2_ws/build/examples_rclcpp_wait_set
+[2.918s] Invoked command in '/home/lucca/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucca/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucca/ros2_ws/install/examples_rclcpp_wait_set
+[2.918s] Invoking command in '/home/lucca/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucca/ros2_ws/build/examples_rclcpp_wait_set -- -j12 -l12
+[39.279s] [  4%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[39.279s] [  8%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[39.279s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[39.279s] [ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[39.279s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[39.279s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[39.279s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[39.281s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[39.281s] [ 37%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[39.282s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[39.282s] [ 45%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[39.282s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[39.282s] [ 50%] Built target wait_set_listener
+[39.282s] [ 54%] [32m[1mLinking CXX executable wait_set_talker[0m
+[39.282s] [ 54%] Built target wait_set_talker
+[45.931s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[46.844s] [ 58%] Built target talker
+[57.074s] [ 62%] [32m[1mLinking CXX shared library liblistener.so[0m
+[57.937s] [ 66%] [32m[1mLinking CXX executable executor_random_order[0m
+[59.511s] [ 66%] Built target listener
+[59.673s] [ 66%] Built target executor_random_order
+[60.512s] [ 70%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[60.608s] [ 75%] [32m[1mLinking CXX executable static_wait_set[0m
+[61.566s] [ 75%] Built target wait_set_topics_with_different_rates
+[61.712s] [ 75%] Built target static_wait_set
+[62.076s] [ 79%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[62.266s] [ 83%] [32m[1mLinking CXX executable wait_set[0m
+[62.565s] [ 83%] Built target wait_set_topics_and_timer
+[62.771s] [ 83%] Built target wait_set
+[62.843s] [ 87%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[62.950s] [ 91%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[63.292s] [ 91%] Built target thread_safe_wait_set
+[63.353s] [ 91%] Built target wait_set_random_order
+[63.369s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[66.034s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[66.211s] [100%] Built target wait_set_composed
+[66.220s] Invoked command in '/home/lucca/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucca/ros2_ws/build/examples_rclcpp_wait_set -- -j12 -l12
+[66.221s] Invoking command in '/home/lucca/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucca/ros2_ws/build/examples_rclcpp_wait_set
+[66.227s] -- Install configuration: ""
+[66.227s] -- Execute custom install script
+[66.227s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[66.234s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[66.242s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[66.248s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[66.255s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[66.261s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[66.268s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[66.275s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[66.282s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[66.288s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[66.295s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[66.302s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[66.310s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[66.316s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[66.323s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[66.330s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[66.337s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[66.344s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[66.350s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[66.357s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[66.363s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[66.371s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[66.378s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[66.384s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[66.391s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[66.397s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[66.405s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[66.412s] -- Symlinking: /home/lucca/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[66.420s] Invoked command in '/home/lucca/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucca/ros2_ws/build/examples_rclcpp_wait_set

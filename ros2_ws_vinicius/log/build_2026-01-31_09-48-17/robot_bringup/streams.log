@@ -1,0 +1,20 @@
+[0.448s] Invoking command in '/home/lucca/ros2_ws_vinicius/build/robot_bringup': PYTHONPATH=/home/lucca/ros2_ws_vinicius/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucca/ros2_ws_vinicius/install/robot_bringup/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucca/ros2_ws_vinicius/build/robot_bringup/build --no-deps symlink_data
+[0.660s] running develop
+[0.789s] running egg_info
+[0.789s] writing robot_bringup.egg-info/PKG-INFO
+[0.789s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[0.789s] writing entry points to robot_bringup.egg-info/entry_points.txt
+[0.789s] writing requirements to robot_bringup.egg-info/requires.txt
+[0.789s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[0.791s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[0.792s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[0.793s] running build_ext
+[0.793s] Creating /home/lucca/ros2_ws_vinicius/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)
+[0.794s] Installing navigate_to_goal script to /home/lucca/ros2_ws_vinicius/install/robot_bringup/lib/robot_bringup
+[0.794s] Installing odom_monitor.py script to /home/lucca/ros2_ws_vinicius/install/robot_bringup/lib/robot_bringup
+[0.794s] Installing odom_tf_publisher script to /home/lucca/ros2_ws_vinicius/install/robot_bringup/lib/robot_bringup
+[0.794s] Installing save_map.py script to /home/lucca/ros2_ws_vinicius/install/robot_bringup/lib/robot_bringup
+[0.794s] 
+[0.794s] Installed /home/lucca/ros2_ws_vinicius/build/robot_bringup
+[0.794s] running symlink_data
+[0.817s] Invoked command in '/home/lucca/ros2_ws_vinicius/build/robot_bringup' returned '0': PYTHONPATH=/home/lucca/ros2_ws_vinicius/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucca/ros2_ws_vinicius/install/robot_bringup/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucca/ros2_ws_vinicius/build/robot_bringup/build --no-deps symlink_data

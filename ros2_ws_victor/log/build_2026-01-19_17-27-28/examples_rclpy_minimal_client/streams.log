@@ -1,0 +1,27 @@
+[6.773s] Invoking command in '/home/lucca/ros2_ws/build/examples_rclpy_minimal_client': PYTHONPATH=/home/lucca/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucca/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucca/ros2_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data
+[8.230s] running develop
+[9.167s] running egg_info
+[9.167s] creating examples_rclpy_minimal_client.egg-info
+[9.167s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[9.167s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[9.167s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[9.167s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[9.167s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[9.167s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.182s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.182s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.207s] running build_ext
+[9.207s] Creating /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[9.234s] Installing client script to /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.234s] Installing client_async script to /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.234s] Installing client_async_callback script to /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.235s] Installing client_async_member_function script to /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.235s] 
+[9.235s] Installed /home/lucca/ros2_ws/build/examples_rclpy_minimal_client
+[9.235s] running symlink_data
+[9.235s] creating /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index
+[9.235s] creating /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[9.235s] creating /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[9.235s] symbolically linking /home/lucca/ros2_ws/build/examples_rclpy_minimal_client/resource/examples_rclpy_minimal_client -> /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[9.235s] symbolically linking /home/lucca/ros2_ws/build/examples_rclpy_minimal_client/package.xml -> /home/lucca/ros2_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[9.498s] Invoked command in '/home/lucca/ros2_ws/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/home/lucca/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucca/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucca/ros2_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data

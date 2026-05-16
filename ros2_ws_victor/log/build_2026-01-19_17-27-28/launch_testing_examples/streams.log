@@ -1,0 +1,23 @@
+[3.688s] Invoking command in '/home/lucca/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/lucca/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucca/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucca/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[4.644s] running develop
+[5.207s] running egg_info
+[5.209s] creating launch_testing_examples.egg-info
+[5.209s] writing launch_testing_examples.egg-info/PKG-INFO
+[5.210s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[5.211s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[5.211s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[5.211s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[5.212s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.215s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.216s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.219s] running build_ext
+[5.219s] Creating /home/lucca/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[5.221s] 
+[5.221s] Installed /home/lucca/ros2_ws/build/launch_testing_examples
+[5.222s] running symlink_data
+[5.222s] creating /home/lucca/ros2_ws/install/launch_testing_examples/share/ament_index
+[5.222s] creating /home/lucca/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[5.222s] creating /home/lucca/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.223s] symbolically linking /home/lucca/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/lucca/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.223s] symbolically linking /home/lucca/ros2_ws/build/launch_testing_examples/package.xml -> /home/lucca/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[5.299s] Invoked command in '/home/lucca/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/lucca/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucca/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucca/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

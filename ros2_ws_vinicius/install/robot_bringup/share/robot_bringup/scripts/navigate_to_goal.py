@@ -1,0 +1,1 @@
+/home/lucca/ros2_ws_vinicius/build/robot_bringup/scripts/navigate_to_goal.py

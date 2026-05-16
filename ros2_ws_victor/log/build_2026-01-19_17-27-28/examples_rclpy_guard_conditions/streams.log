@@ -1,0 +1,24 @@
+[8.757s] Invoking command in '/home/lucca/ros2_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/lucca/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucca/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data
+[9.915s] running develop
+[10.965s] running egg_info
+[10.966s] creating examples_rclpy_guard_conditions.egg-info
+[10.967s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[10.967s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[10.967s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[10.967s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[10.967s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[10.968s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[10.972s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[10.973s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[10.977s] running build_ext
+[10.978s] Creating /home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[10.979s] Installing trigger_guard_condition script to /home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[10.979s] 
+[10.980s] Installed /home/lucca/ros2_ws/build/examples_rclpy_guard_conditions
+[10.980s] running symlink_data
+[10.980s] creating /home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index
+[10.981s] creating /home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[10.982s] creating /home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[10.982s] symbolically linking /home/lucca/ros2_ws/build/examples_rclpy_guard_conditions/resource/examples_rclpy_guard_conditions -> /home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[10.987s] symbolically linking /home/lucca/ros2_ws/build/examples_rclpy_guard_conditions/package.xml -> /home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[11.875s] Invoked command in '/home/lucca/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/lucca/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucca/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucca/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data
